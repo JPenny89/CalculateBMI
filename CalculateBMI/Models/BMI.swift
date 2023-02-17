@@ -10,7 +10,8 @@ import UIKit
 struct BMI {
     let value: Float
     let advice: String
-    let color: UIColor
+    let backgroundColour: UIColor
+    let textColour: UIColor
 }
 
 

@@ -102,7 +102,7 @@
                                 <rect key="frame" x="117" y="184" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EAT SOME MORE SNACKS!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yh3-sl-M9F" userLabel="Advice Label">
@@ -135,6 +135,7 @@
                     <connections>
                         <outlet property="adviceLabel" destination="yh3-sl-M9F" id="UKa-tN-eik"/>
                         <outlet property="bmiLabel" destination="46P-Qc-IDz" id="9ld-l6-IJR"/>
+                        <outlet property="yourResultText" destination="bxh-Ia-ei7" id="e7Z-qz-9s9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uM3-xY-ctU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
